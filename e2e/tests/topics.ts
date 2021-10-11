@@ -27,7 +27,6 @@ test.describe('[topics]', () => {
 
   //   const new_topic_page = await new_topic('local');
   //   await new_topic_page.is_on_page();
-
   //   // await page.reload_till_topic_appears(new_topic_name);
   // });
 });
