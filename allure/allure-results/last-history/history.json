@@ -1,0 +1,83 @@
+{
+  "61d3874fc5d35b85b0cd7942ccda45ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54f489bb843fed1f",
+      "reportUrl" : "https://mikementor.github.io/kafka-ui/allure-results/2//#testresult/54f489bb843fed1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633985166153,
+        "stop" : 1633985170214,
+        "duration" : 4061
+      }
+    } ]
+  },
+  "ea70dde018ebf76aa3fe91bebe21405" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0f36b033970c039",
+      "reportUrl" : "https://mikementor.github.io/kafka-ui/allure-results/2//#testresult/e0f36b033970c039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633985138524,
+        "stop" : 1633985166123,
+        "duration" : 27599
+      }
+    } ]
+  },
+  "68ea0c9be4a2b1282c1c0563a861c577" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a8ca3c718e5050",
+      "reportUrl" : "https://mikementor.github.io/kafka-ui/allure-results/2//#testresult/2a8ca3c718e5050",
+      "status" : "skipped",
+      "statusDetails" : "void com.provectus.kafka.ui.topics.TopicTests.deleteTopic() is @Disabled",
+      "time" : {
+        "start" : 1633985138505,
+        "stop" : 1633985138506,
+        "duration" : 1
+      }
+    } ]
+  },
+  "5472b00abbb74c5c8bdcfb9f276f316" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6897a1e578278956",
+      "reportUrl" : "https://mikementor.github.io/kafka-ui/allure-results/2//#testresult/6897a1e578278956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633985170439,
+        "stop" : 1633985171407,
+        "duration" : 968
+      }
+    } ]
+  }
+}
