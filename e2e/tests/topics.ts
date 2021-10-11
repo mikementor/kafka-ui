@@ -17,7 +17,6 @@ test.describe('[topics]', () => {
 
     await page.reload_till_topic_appears(new_topic_name);
   });
-
   // test.only("topic created via UI", async ({ new_topic, topics }) => {
   //   const  page = await topics("local");
   //   await page.goto();

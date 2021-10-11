@@ -50,8 +50,8 @@ jobs:
           node-version: '14'
       - name: Install operating system dependencies
         run: npx playwright install chrome
-      - name: Run your tests
-        run: cd e2e && npm i && npm test
+      - name: Run e2e playwright tests
+        run: cd e2e && npm i && npm run gen:sources && npm test
       - name: Generate allure report
         uses: simple-elf/allure-report-action@master
         if: always()
