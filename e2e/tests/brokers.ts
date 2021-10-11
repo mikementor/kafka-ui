@@ -6,9 +6,4 @@ test.describe('brokers', () => {
     await page.goto();
     await page.is_on_page();
   });
-
-
-  test('two', async ({ page }) => {
-    // ...
-  });
 });

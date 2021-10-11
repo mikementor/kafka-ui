@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test --config=config/playwright.config.ts --workers 4",
+    "test": "playwright test --config=config/playwright.config.ts --workers 2",
     "gen:sources": "rm -rf src/generated-sources && openapi-generator-cli generate"
   },
   "keywords": [],
