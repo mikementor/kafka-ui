@@ -45,12 +45,12 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -pl '!kafka-ui-api' test -Pprod
       - uses: actions/setup-node@v2
-          with:
-            node-version: '14'
-        - name: Install operating system dependencies
-          run: npx playwright install chrome
-        - name: Run your tests
-          run: cd e2e && npm i && npm test
+        with:
+          node-version: '14'
+      - name: Install operating system dependencies
+        run: npx playwright install chrome
+      - name: Run your tests
+        run: cd e2e && npm i && npm test
       - name: Generate allure report
         uses: simple-elf/allure-report-action@master
         if: always()
