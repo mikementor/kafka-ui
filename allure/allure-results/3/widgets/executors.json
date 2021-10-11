@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://mikementor.github.io/kafka-ui/allure-results",
+  "buildOrder" : 3,
+  "buildName" : "GitHub Actions Run #1330541113",
+  "buildUrl" : "https://github.com/mikementor/kafka-ui/actions/runs/1330541113",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://mikementor.github.io/kafka-ui/allure-results/3/"
+} ]
